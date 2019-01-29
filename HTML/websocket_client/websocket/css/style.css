@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("../image/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.btn_all{
+    width: 500px;
+    margin: 0 auto;
+}
+.text{
+    width: 500px;
+    margin: 0 auto;
+}
+.text:focus{
+    border: none;
+}
+.srv_div p input{
+    display: inline;
+}
+#areaId{
+    width: 500px;
+    height: 500px;
+    resize: none;
+}
+button {
+    background: #ff00ff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:none;
+    font-size: small;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+
+button:hover{
+    background: #ff0f00;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+}
+/*纯CSS实现聊天框小尖角、气泡效果*/
+
+/*聊天界面*/
+.chat_room{
+    padding-top: 80px;
+}
+.chatcontainer
+{
+    padding-top: 10px;
+    margin: 10px auto;
+    width: 500px;
+    height: auto;
+    background: #4D4948;
+    overflow: hidden;
+}
+#chatdiv
+{
+    width: 520px;
+    height: 600px;
+    background: #4D4948;
+    overflow: auto;
+}
+/*本人聊天内容和头像*/
+.chatid1{
+    margin-left: 53%;
+}
+.send{
+    position: relative;
+    width: 150px;
+    height: auto;
+    background: #f8c301;
+    border-radius: 5px;
+    margin: 30px auto 20px;
+    display: inline;
+    float: left;
+}
+.send .arrow{
+    position: absolute;
+    top:15px;
+    right: -15px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border: solid 8px;
+    border-color: #4D4948 #4D4948 #4D4948 #F8C301;
+}
+#content{
+    position: relative;
+    margin: 0 20px;
+    top: 4px;
+    height: auto;
+    margin-top: 6px;
+    padding-bottom: 12px;
+    min-height: 18px;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    display: inline;
+    float: left;
+    margin: 24px 15px 0px 12px;
+}
+/*其他人聊天内容和头像*/
+.chatid2{
+    margin-right: 56%;
+}
+.send1{
+    position: relative;
+    width: 150px;
+    height: auto;
+    background: #f8c301;
+    border-radius: 5px;
+    margin: 30px auto 20px;
+    display: inline;
+    float: right;
+}
+.send1 .arrow1{
+    position: absolute;
+    top:15px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border: solid 8px;
+    border-color: #4D4948 #F8C301 #4D4948 #4D4948 ;
+}
+#content1{
+    position: relative;
+    margin: 0 20px;
+    top: 4px;
+    height: auto;
+    margin-top: 6px;
+    padding-bottom: 12px;
+    min-height: 18px;
+}
+.header1 img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    display: inline;
+    float: right;
+    margin: 24px 15px 0px 12px;
+}
+/*发送消息*/
+
+.send_btn{
+    width: 500px;
+    margin: -12px auto;
+}
+.send_btn #ctext{
+    width: 389px;
+    height: 40px;
+    border-radius: 5px;
+    resize: none;
+    margin: -1px 0px -16px;
+}
+.send_btn #cbutton{
+    width: 110px;
+    height: 43px;
+    border-radius:0px;
+    margin: -1px -6px -15px;
+    font-size: 15px;
+    color: aqua;
+    background: #ff80ff;
+    border-color: #ff80ff;
+}
+
+#cbutton:active{
+    background: aqua;
+    color:#ff80ff;
+}
